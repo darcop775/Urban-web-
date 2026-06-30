@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>drea avenue | Comunidad urbana</title>
+    <!-- Importamos fuentes premium desde Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Encabezado con tu marca limpia -->
+    <header>
+        <div class="logo">drea avenue</div>
+        <div class="sub-nav">TÚ OPINIÓN IMPORTA</div>
+    </header>
+
+    <!-- Sección Principal -->
+    <main>
+        <h1 class="pregunta-principal">¿Cuál dirías tú que es tu experiencia en una marca de ropa grande? ¿Cuál es el error que crees tú que cometen estas marcas?</h1>
+        
+        <div class="card-prenda">
+            <!-- Usamos la misma foto que tienes con los tulipanes amarillos -->
+            <img src="https://images.unsplash.com/photo-1556905055-8f358a7a47b2?q=80&w=600" alt="Estilo Drea Avenue">
+        </div>
+    </main>
+
+    <!-- Sección de Feedback Limpia -->
+    <section id="opiniones">
+        <h2>Déjanos tu opinión</h2>
+        <form id="form-opinion">
+            <div class="input-group">
+                <input type="text" id="nombre" placeholder="Tu nombre o @instagram" required>
+            </div>
+            <div class="input-group">
+                <textarea id="comentario" rows="4" placeholder="¿Qué te parece el corte, el color...?" required></textarea>
+            </div>
+            <button type="submit">ENVIAR VOTO</button>
+        </form>
+
+        <!-- Bloque donde aparecen las opiniones -->
+        <div id="lista-comentarios"></div>
+    </section>
+
+    <!-- Pie de página con tus redes y correo -->
+    <footer>
+        <div class="social-links">
+            <a href="https://instagram.com" target="_blank" class="social-item">Instagram</a>
+            <a href="https://tiktok.com" target="_blank" class="social-item">TikTok</a>
+            <a href="mailto:tu-correo@dominio.com" class="social-item">Contacto (Email)</a>
+        </div>
+        <p class="credits">© 2026 drea avenue. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
